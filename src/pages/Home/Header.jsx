@@ -32,9 +32,9 @@ const Header = () => {
       </header>
 
       {/* Navigation */}
-      <nav className="border-b border-gray-200">
+      <nav className=" border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex justify-center items-center space-x-3 py-4 font-medium whitespace-nowrap" style={{ color: "#5E0C8C" }}>
+          <div className="flex flex-wrap justify-center items-center space-x-1 sm:space-x-3 py-2 sm:py-4 font-medium" style={{ color: "#5E0C8C" }}>
             {["skin", "body", "hair", "fragrances"].map((item) => (
               <Dropdown
                 title={item}
