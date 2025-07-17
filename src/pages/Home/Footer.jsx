@@ -170,7 +170,7 @@ const Footer = () => {
                 (PS: we too hate spam!)
               </p>
 
-              <div className="flex space-x-2 mb-6">
+              <div className="flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 mb-6">
                 <input
                   type="email"
                   placeholder="your email"

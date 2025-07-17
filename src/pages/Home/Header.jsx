@@ -30,7 +30,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-
       {/* Navigation */}
       <nav className=" border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
