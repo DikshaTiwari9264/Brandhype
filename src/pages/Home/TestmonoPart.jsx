@@ -1,11 +1,10 @@
-import { ChevronRight, Quote, Star } from 'lucide-react'
 import React from 'react'
+import { ChevronRight, Quote, Star } from 'lucide-react'
 import men from "../../assets/men-per.jpg"
 import girl from "../../assets/girl3.jpg"
 import girl2 from "../../assets/girl-per-2.jpg"
-
-const Testminoal = () => {
-    const testimonials = [
+const TestmonoPart = () => {
+       const testimonials = [
     {
       id: 1,
       name: "Sarah Johnson",
@@ -32,8 +31,8 @@ const Testminoal = () => {
     },
   ]
   return (
-   <>
-   
+    <>
+    
     <section className='max-w-7xl mx-auto'>
         <div className="flex items-center justify-center mb-8">
           <Quote className="w-6 h-6 mr-2" style={{ color: "#5E0C8C" }} />
@@ -78,9 +77,8 @@ const Testminoal = () => {
           </button>
         </div>
       </section>
-   
-   </>
+    </>
   )
 }
 
-export default Testminoal
+export default TestmonoPart

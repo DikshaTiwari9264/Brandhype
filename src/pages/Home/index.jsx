@@ -3,12 +3,12 @@ import Announcementbar from "./Announcementbar";
 import Banner from "./Banner";
 import ProductCategories from "./ProductCategories";
 import ComboOffer from "./ComboOffer";
-import Testminoal from "./testminoal";
 import BestSeller from "./BestSeller";
 import Blogs from "./Blogs";
 import ChooseUs from "./ChooseUs";
 import VideoTestminol from "./VideoTestminol";
 import Footer from "./Footer";
+import TestmonoPart from "./TestmonoPart";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
       <Banner />
       <ProductCategories />
       <ComboOffer />
-      <Testminoal />
+   <TestmonoPart/>
       <BestSeller />
       <Blogs />
       <ChooseUs />
